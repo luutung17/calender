@@ -1,0 +1,45 @@
+.event-info {
+  background-color: #e8f1ff;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 12px;
+  
+}
+
+.event-title {
+  font-weight: bold;
+}
+
+.fc-header-toolbar {
+  font-size: 14px;
+}
+
+.fc-day-header {
+  font-size: 12px;
+}
+
+.fc-button {
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+body {
+  margin: 40px 10px;
+  padding: 0;
+  font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 14px;
+  background-image:url(anhFullCalender.jpg);
+  background-repeat: no-repeat;
+  background-size: 1519px 797px;
+}
+.fc-day:hover {
+  background-color: lightgray !important;
+  border-color: gray !important;
+}
+
+#calendar-container{
+  max-width: 900px;
+  margin: 0px auto;
+}
+#calendar-container .find-day{
+  display: block;
+}
